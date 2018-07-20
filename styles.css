@@ -1,0 +1,17 @@
+@media print, screen {
+  p.name {
+    font-family: 'Dancing Script', cursive !important;
+    font-size: 2em;
+    display: inline-block !important;
+    width: 24% !important;
+    text-align: center !important;
+    padding: 6em 0 1em !important;
+  }
+
+  p.name:nth-of-type(8n + 5),
+  p.name:nth-of-type(8n + 6),
+  p.name:nth-of-type(8n + 7),
+  p.name:nth-of-type(8n + 8) {
+    transform: rotate(180deg);
+  }
+}
